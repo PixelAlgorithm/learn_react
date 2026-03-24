@@ -1,0 +1,32 @@
+.cards{/*child*/
+  width : 250px;
+  height : 250px;
+  border : 1px solid #000;
+  border-left:10px solid #000;
+  border-radius : 25px;
+  padding: 10px;
+  margin : 10px;
+  background-color: #5f9df8;
+  transition: .25s ease-in-out;
+}
+.identity{/*grandchild*/
+  padding-top : 30px;
+  background-color: #ffffff;
+  width: 100%;
+  height:20%;
+  border-radius : 25px;
+  align-items: center;
+  text-align: center;
+}
+.card_encl{ /*parent*/
+  display : flex;
+
+}
+
+
+.cards:hover{
+  box-shadow: 1px 1px 2px #000;
+  border-left : 15px solid #000;
+  width :300px;
+
+}
